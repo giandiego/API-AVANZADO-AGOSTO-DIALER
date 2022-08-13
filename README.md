@@ -12,7 +12,7 @@ Frontend application.
 
 # Endpoints
 
-[Doc](https://github.com/giandiego/api-base-mongo-jwt/blob/main/requests/prog.http)
+[Doc](https://github.com/giandiego/API-AVANZADO-AGOSTO-DIALER/blob/main/requests/prog.http)
 
 # Install
 
@@ -52,17 +52,17 @@ sudo systemctl status mongod
 Clone project
 ```
 cd /opt/
-git clone https://github.com/giandiego/api-base-mongo-jwt.git
+git clone https://github.com/giandiego/API-AVANZADO-AGOSTO-DIALER.git
 ```
 
-Edit enviroment variables in /opt/api-base-mongo-jwt/ (changues values)
+Edit enviroment variables in /opt/API-AVANZADO-AGOSTO-DIALER/ (changues values)
 ```
 cp env-example .env
 ```
 
 Install Dependencies
 ```
-cd /opt/api-base-mongo-jwt/
+cd /opt/API-AVANZADO-AGOSTO-DIALER/
 npm install --force
 npm run build
 ```
@@ -80,9 +80,9 @@ npm run dev
 
 Init pm2
 ```
-cd /opt/api-base-mongo-jwt/
+cd /opt/API-AVANZADO-AGOSTO-DIALER/
 npm run build
-pm2 start dist/index.js --name api-base-mongo-jwt --time
+pm2 start dist/index.js --name API-AVANZADO-AGOSTO-DIALER --time
 pm2 startup
 ```
 Remove init script via:
