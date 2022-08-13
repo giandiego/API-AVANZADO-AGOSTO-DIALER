@@ -1,0 +1,24 @@
+# Entorno
+DOMAIN = localhost
+PORT = 4001
+SSL = false
+
+#RUTA DEL CERTIFICADO
+KEY = /etc/letsencrypt/live/${DOMAIN}/privkey.pem
+CERT =  /etc/letsencrypt/live/${DOMAIN}/cert.pem
+
+# Database
+MONGODB_DB = AvanzadoAgosto
+MONGODB_URI = mongodb://localhost/${MONGODB_DB}?retryWrites=true
+
+# Asterisk manager interface
+AMI_HOST = TUIP
+AMI_USER = appDialer
+AMI_PASS = aulautil123
+AMI_PORT = 5038
+
+# Token
+USER_NAME = Api Base
+EMAIL = api.auth@apibase.com
+PASSWORD = ApiBase2021*!
+JWT_KEY = ApibPass123*
